@@ -1,0 +1,811 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "90e2b17c57ca2f71d6d9bd12b54a739a",
+    "content-hash": "aaaa93eb456492d9c36994a9c2cc5644",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v1.0.25",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "ImageCMS",
+                "MODX Evo",
+                "Mautic",
+                "OXID",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "elgg",
+                "fuelphp",
+                "grav",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "zend",
+                "zikula"
+            ],
+            "time": "2016-04-13 19:46:30"
+        },
+        {
+            "name": "fuel/auth",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fuel/auth.git",
+                "reference": "a645dbe2f80b6b4cecb069b57ea70150b6e53929"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fuel/auth/zipball/a645dbe2f80b6b4cecb069b57ea70150b6e53929",
+                "reference": "a645dbe2f80b6b4cecb069b57ea70150b6e53929",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "fuel-package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FuelPHP Development Team",
+                    "email": "team@fuelphp.com"
+                }
+            ],
+            "description": "FuelPHP 1.x Auth Package",
+            "homepage": "https://github.com/fuel/auth",
+            "time": "2016-01-23 12:30:25"
+        },
+        {
+            "name": "fuel/core",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fuel/core.git",
+                "reference": "26f6432a9f41659280c70ba47c16170adf1e7611"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fuel/core/zipball/26f6432a9f41659280c70ba47c16170adf1e7611",
+                "reference": "26f6432a9f41659280c70ba47c16170adf1e7611",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "fuel-package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FuelPHP Development Team",
+                    "email": "team@fuelphp.com"
+                }
+            ],
+            "description": "FuelPHP 1.x Core",
+            "homepage": "https://github.com/fuel/core",
+            "time": "2016-04-09 16:28:31"
+        },
+        {
+            "name": "fuel/email",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fuel/email.git",
+                "reference": "79133b3951068bbcff9a9c7b77f9f27a777ebdbd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fuel/email/zipball/79133b3951068bbcff9a9c7b77f9f27a777ebdbd",
+                "reference": "79133b3951068bbcff9a9c7b77f9f27a777ebdbd",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "fuel-package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FuelPHP Development Team",
+                    "email": "team@fuelphp.com"
+                }
+            ],
+            "description": "FuelPHP 1.x Email Package",
+            "homepage": "https://github.com/fuel/email",
+            "time": "2016-01-23 12:31:34"
+        },
+        {
+            "name": "fuel/oil",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fuel/oil.git",
+                "reference": "b29b80f29f090b9ad12b931da6e979587de6ced1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fuel/oil/zipball/b29b80f29f090b9ad12b931da6e979587de6ced1",
+                "reference": "b29b80f29f090b9ad12b931da6e979587de6ced1",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "fuel-package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FuelPHP Development Team",
+                    "email": "team@fuelphp.com"
+                }
+            ],
+            "description": "FuelPHP 1.x Oil Package",
+            "homepage": "https://github.com/fuel/oil",
+            "time": "2016-01-23 12:32:54"
+        },
+        {
+            "name": "fuel/orm",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fuel/orm.git",
+                "reference": "2c1da635127c9fbedc9c76132fc904188892c365"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fuel/orm/zipball/2c1da635127c9fbedc9c76132fc904188892c365",
+                "reference": "2c1da635127c9fbedc9c76132fc904188892c365",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "fuel-package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FuelPHP Development Team",
+                    "email": "team@fuelphp.com"
+                }
+            ],
+            "description": "FuelPHP 1.x ORM Package",
+            "homepage": "https://github.com/fuel/orm",
+            "time": "2016-02-07 12:09:12"
+        },
+        {
+            "name": "fuel/parser",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fuel/parser.git",
+                "reference": "bec50ec304e696d72dba7f13494828532c6e18df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fuel/parser/zipball/bec50ec304e696d72dba7f13494828532c6e18df",
+                "reference": "bec50ec304e696d72dba7f13494828532c6e18df",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "fuel-package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FuelPHP Development Team",
+                    "email": "team@fuelphp.com"
+                }
+            ],
+            "description": "FuelPHP 1.x Parser Package",
+            "homepage": "https://github.com/fuel/parser",
+            "time": "2016-03-12 12:08:41"
+        },
+        {
+            "name": "fuelphp/upload",
+            "version": "2.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fuelphp/upload.git",
+                "reference": "73b3abfa317c22d6b4d63588e9601c13623ea6f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fuelphp/upload/zipball/73b3abfa317c22d6b4d63588e9601c13623ea6f6",
+                "reference": "73b3abfa317c22d6b4d63588e9601c13623ea6f6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-fileinfo": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "codeception/codeception": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fuel\\Upload\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FuelPHP Development Team",
+                    "email": "team@fuelphp.com"
+                }
+            ],
+            "description": "Process uploaded files",
+            "homepage": "https://github.com/fuelphp/upload",
+            "keywords": [
+                "file uploads",
+                "upload"
+            ],
+            "time": "2015-11-04 17:19:56"
+        },
+        {
+            "name": "google/apiclient",
+            "version": "1.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/google-api-php-client.git",
+                "reference": "400f250a30ae1dd4c4a0a4f750fe973fc70e6311"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/400f250a30ae1dd4c4a0a4f750fe973fc70e6311",
+                "reference": "400f250a30ae1dd4c4a0a4f750fe973fc70e6311",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Client library for Google APIs",
+            "homepage": "http://developers.google.com/api-client-library/php",
+            "keywords": [
+                "google"
+            ],
+            "time": "2016-02-02 18:50:42"
+        },
+        {
+            "name": "michelf/php-markdown",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-markdown.git",
+                "reference": "96d8150406f67e683ef4acc09fef91785fef1266"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/96d8150406f67e683ef4acc09fef91785fef1266",
+                "reference": "96d8150406f67e683ef4acc09fef91785fef1266",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-lib": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Michelf": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "http://michelf.ca/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "http://daringfireball.net/"
+                }
+            ],
+            "description": "PHP Markdown",
+            "homepage": "http://michelf.ca/projects/php-markdown/",
+            "keywords": [
+                "markdown"
+            ],
+            "time": "2013-11-29 17:09:24"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "583618d5cd2115a52101694aca87afb182b3e567"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/583618d5cd2115a52101694aca87afb182b3e567",
+                "reference": "583618d5cd2115a52101694aca87afb182b3e567",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "doctrine/couchdb": "dev-master",
+                "mlehner/gelf-php": "1.0.*",
+                "raven/raven": "0.3.*"
+            },
+            "suggest": {
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "mlehner/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "raven/raven": "Allow sending log messages to a Sentry server"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Monolog": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2013-04-23 10:09:48"
+        },
+        {
+            "name": "mp-php/fuel-packages-gdata",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mamor/fuel-packages-gdata.git",
+                "reference": "e1e22ecbc7de42f8e49570af0c06c7fe4acb72a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mamor/fuel-packages-gdata/zipball/e1e22ecbc7de42f8e49570af0c06c7fe4acb72a7",
+                "reference": "e1e22ecbc7de42f8e49570af0c06c7fe4acb72a7",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "google/apiclient": "1.*@dev"
+            },
+            "type": "fuel-package",
+            "extra": {
+                "installer-name": "gdata"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mamoru Otsuka"
+                }
+            ],
+            "time": "2014-02-19 13:36:18"
+        },
+        {
+            "name": "opauth/google",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opauth/google.git",
+                "reference": "35df77684c14acb346a8c3753ae3809852d1a47e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opauth/google/zipball/35df77684c14acb346a8c3753ae3809852d1a47e",
+                "reference": "35df77684c14acb346a8c3753ae3809852d1a47e",
+                "shasum": ""
+            },
+            "require": {
+                "opauth/opauth": ">=0.2.0",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "U-Zyn Chua",
+                    "email": "chua@uzyn.com",
+                    "homepage": "http://uzyn.com"
+                }
+            ],
+            "description": "Google strategy for Opauth",
+            "homepage": "http://opauth.org",
+            "keywords": [
+                "Authentication",
+                "auth",
+                "google"
+            ],
+            "time": "2012-10-18 14:39:52"
+        },
+        {
+            "name": "opauth/opauth",
+            "version": "0.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opauth/opauth.git",
+                "reference": "436fb98c2374c9e8ae4d8adddf83214bee4d9c72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opauth/opauth/zipball/436fb98c2374c9e8ae4d8adddf83214bee4d9c72",
+                "reference": "436fb98c2374c9e8ae4d8adddf83214bee4d9c72",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "suggest": {
+                "opauth/facebook": "Allows Facebook authentication",
+                "opauth/google": "Allows Google authentication",
+                "opauth/twitter": "Allows Twitter authentication"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/Opauth/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "U-Zyn Chua",
+                    "email": "chua@uzyn.com",
+                    "homepage": "http://uzyn.com"
+                }
+            ],
+            "description": "Multi-provider authentication framework for PHP",
+            "homepage": "http://opauth.org",
+            "keywords": [
+                "Authentication",
+                "OpenId",
+                "auth",
+                "facebook",
+                "google",
+                "oauth",
+                "omniauth",
+                "twitter"
+            ],
+            "time": "2013-05-10 09:01:52"
+        },
+        {
+            "name": "phpseclib/phpseclib",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpseclib/phpseclib.git",
+                "reference": "a74aa9efbe61430fcb60157c8e025a48ec8ff604"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/a74aa9efbe61430fcb60157c8e025a48ec8ff604",
+                "reference": "a74aa9efbe61430fcb60157c8e025a48ec8ff604",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phing/phing": "~2.7",
+                "phpunit/phpunit": "~4.0",
+                "sami/sami": "~2.0",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "suggest": {
+                "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
+                "ext-libsodium": "SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.",
+                "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
+                "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations.",
+                "pear-pear/PHP_Compat": "Install PHP_Compat to get phpseclib working on PHP < 5.0.0."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "phpseclib\\": "phpseclib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "phpseclib/"
+            ],
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Wigginton",
+                    "email": "terrafrost@php.net",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Patrick Monnerat",
+                    "email": "pm@datasphere.ch",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Andreas Fischer",
+                    "email": "bantu@phpbb.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Hans-Jürgen Petrich",
+                    "email": "petrich@tronic-media.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
+            "homepage": "http://phpseclib.sourceforge.net",
+            "keywords": [
+                "BigInteger",
+                "aes",
+                "asn.1",
+                "asn1",
+                "blowfish",
+                "crypto",
+                "cryptography",
+                "encryption",
+                "rsa",
+                "security",
+                "sftp",
+                "signature",
+                "signing",
+                "ssh",
+                "twofish",
+                "x.509",
+                "x509"
+            ],
+            "time": "2015-08-04 04:48:03"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "fuel/docs",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fuel/docs.git",
+                "reference": "e03906d02cbd09bddb653e28f92f92056e673a32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fuel/docs/zipball/e03906d02cbd09bddb653e28f92f92056e673a32",
+                "reference": "e03906d02cbd09bddb653e28f92f92056e673a32",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "fuel-package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "FuelPHP Development Team",
+                    "email": "team@fuelphp.com"
+                }
+            ],
+            "description": "FuelPHP 1.x Documenataion",
+            "homepage": "https://github.com/fuel/docs",
+            "time": "2016-04-10 12:59:50"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "opauth/google": 20,
+        "mp-php/fuel-packages-gdata": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": []
+}

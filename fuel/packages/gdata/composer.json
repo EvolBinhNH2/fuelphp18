@@ -1,0 +1,17 @@
+{
+	"name": "mp-php/fuel-packages-gdata",
+	"type": "fuel-package",
+	"require": {
+		"composer/installers": "*",
+		"google/apiclient": "1.*@dev"
+	},
+	"extra": {
+		"installer-name": "gdata"
+	},
+	"authors": [
+		{
+			"name": "Mamoru Otsuka"
+		}
+	],
+	"license": "MIT"
+}
