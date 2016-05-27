@@ -9,7 +9,6 @@ The Login sample used Google API Oauth2.0
     allow from All    
 </Directory>    
 
-## Apache config
 <VirtualHost *:80>    
     ServerName fuelphp18.com    
     DocumentRoot "/var/www/fuelphp18/public"    
