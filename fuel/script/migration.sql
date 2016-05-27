@@ -67,7 +67,7 @@ CREATE TABLE `users` (
 -- ----------------------------
 -- Records of users
 -- ----------------------------
-INSERT INTO `users` VALUES ('1', 'truongnv169', 'WFGiZsP1aNuJ8m5HoidABYEuT6Z4D888ry/kTId2Bzk=', '1', 'truongnv169@gmail.com', '1464178499', '2b5a2d8f289008ea5c2c6b82059503a282e658e2', 'a:1:{s:8:\"fullname\";s:23:\"Trường Nguyễn Văn\";}', '1464148844', '0');
+INSERT INTO `users` VALUES ('1', 'xxxxxx', 'WFGiZsP1aNuJ8m5HoidABYEuT6Z4D888ry/kTId2Bzk=', '1', 'xxxxxx@gmail.com', '1464178499', '2b5a2d8f289008ea5c2c6b82059503a282e658e2', 'a:1:{s:8:\"fullname\";s:23:\"Trường Nguyễn Văn\";}', '1464148844', '0');
 
 -- ----------------------------
 -- Table structure for users_clients
